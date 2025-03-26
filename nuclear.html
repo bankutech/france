@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coopération Nucléaire</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('WhatsApp Image 2025-03-26 at 5.30.07 AM.jpeg') no-repeat center center fixed;
+            background-size: cover;
+            background-attachment: fixed; /* Pour une image de fond fixe */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 800px;
+            width: 90%; /* Pour une meilleure adaptation aux petits écrans */
+            background: rgba(255, 255, 255, 0.9); /* Légère transparence pour améliorer la lisibilité */
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            transition: transform 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
+            transform: translateY(20px);
+            opacity: 0;
+            animation: fadeIn 1s forwards ease-out;
+        }
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        .container:hover {
+            transform: scale(1.02);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25);
+        }
+        h1 {
+            color: #1B5E20;
+            font-size: 32px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1.8px;
+            margin-bottom: 20px;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+        }
+        .highlight-box {
+            background: #e8f5e9;
+            padding: 15px;
+            margin: 25px 0;
+            border-left: 8px solid #1B5E20;
+            font-weight: 600;
+            font-size: 17px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+            transition: background-color 0.3s ease;
+        }
+        .highlight-box:hover {
+            background-color: #d1e9dc;
+        }
+        p {
+            font-size: 19px;
+            color: #333;
+            line-height: 1.7;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Coopération Nucléaire</h1>
+        <p>L'Inde et la France collaborent depuis longtemps dans le domaine de l’énergie nucléaire, depuis les années 1970.</p>
+        <p>La France a soutenu le programme nucléaire civil de l’Inde, même lorsque d'autres nations occidentales imposaient des restrictions. En 2008, après la levée des restrictions du NSG, la France est devenue le premier pays à signer un accord de coopération nucléaire avec l’Inde.</p>
+        <div class="highlight-box">Fait : La centrale nucléaire de Jaitapur, une fois achevée, sera la plus grande centrale nucléaire du monde !</div>
+        <p>Ce partenariat garantit la sécurité énergétique de l’Inde tout en favorisant les alternatives énergétiques propres. L'expertise française joue un rôle clé dans l'expansion nucléaire de l'Inde.</p>
+    </div>
+</body>
+</html>
